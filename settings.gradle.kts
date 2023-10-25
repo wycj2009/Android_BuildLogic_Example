@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google()
         mavenCentral()
@@ -15,3 +16,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Android_BuildLogic_Example"
 include(":app")
+include(":androidlibrary")
+include(":jvmlibrary")
